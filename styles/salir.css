@@ -1,0 +1,17 @@
+body{
+    text-align: center;
+    background-color: blueviolet;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.salir{
+    background-color: rgb(165, 42, 151);
+    margin: 250px auto;
+    width: 25%;
+    border-radius: 15px;
+    padding: 10px;
+}
+h1:hover{
+ transition: 0.5s;   
+color:white;
+
+}

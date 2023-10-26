@@ -1,0 +1,23 @@
+body{
+    text-align: center;
+    background-color: blueviolet;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+@keyframes anim{
+    0% {background-color: rgb(255, 0, 0);} /*Amarillo*/
+   25% {background-color: hsl(0, 100%, 50%);} /*Naranja*/
+   50% {background-color: red;} /*Negro*/
+   75% {background-color: white;} /*Otra vez naranja*/
+  100% {background-color: white;} /*Otra vez amarillo*/
+}
+.bloqueada{
+    animation-name: anim;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+    background-color: rgb(165, 42, 151);
+    margin: 250px auto;
+    width: 25%;
+    padding: 50px;
+    font-size: xx-large;
+    font-weight: bold;
+}

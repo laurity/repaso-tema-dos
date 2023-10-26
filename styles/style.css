@@ -1,0 +1,48 @@
+body{
+    text-align: center;
+    background-color: blueviolet;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    margin: 80px auto;
+    padding: 10px;
+    background-color: rgb(201, 152, 247);
+    border-radius: 15px;
+    width: 25%;
+}
+
+.mostrar{
+    border-radius: 15px;
+    padding: 5px 0;
+    background-color: aliceblue;
+    width: 95%;
+    margin: auto;
+    margin-bottom: 10px;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+button{
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    background-color: rgb(255, 166, 251);
+    transition: all 0.5s ease;
+    border: none;
+}
+a{
+  text-decoration: none;  
+}
+.salir{
+    background-color:rgb(244, 88, 255);
+    width: 50%;
+}
+button:hover{
+    color: rgb(255, 255, 255);
+    background-color: black;
+}
